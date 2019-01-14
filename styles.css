@@ -1,0 +1,56 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  /*width: 1366px;*/
+  height: 768px;
+  background-size: 25px 25px;
+  background-image: radial-gradient(circle, lightblue 1px, rgba(0, 0, 0, 0) 1px);
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  /font-size: 5em;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+  color: #fff;
+  padding: 3px 0px 3px 4px;
+}
+
+/*div #mySketch {
+  align-content: center;
+}*/
+
+/************ Columns ***********/
+#columns {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  margin: 0px 20px 20px 20px;
+  float: left;
+  width: 200px;
+  background: coral;
+  padding-bottom: 250px;
+}
+
+ol li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/********* Footer **********/
+footer {
+  bottom: 0;
+  margin-top: 40px;
+  text-align: center;
+  clear: both;
+}
