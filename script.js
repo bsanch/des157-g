@@ -1,20 +1,5 @@
 console.log('reading js');
 
-// function setup() {
-//   //Size() is createCanvas() in p5!
-//   //create a variable to reference createCanvas
-//
-//   var myCanvas = createCanvas(800, 250);
-//
-//   //connect myCanvas to mySketch
-//
-//   myCanvas.parent('mySketch');
-// }
-//
-// function draw() {
-//   ellipse(mouseX, mouseY, 50, 50);
-// }
-
 function setup() {
  var myCanvas = createCanvas(800, 250);
  myCanvas.parent('mySketch');
