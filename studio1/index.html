@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Vibur" rel="stylesheet">
+
+  <title>Mad Lib Sundae</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>
+        Mad Lib Sundae
+      </h1>
+  </header>
+
+<h2>Make a tasty sundae!</h2>
+
+
+  <section id="sundae">
+    <img src="../images/sundae.png" alt="sundae" height="378" width="203">
+  </section>
+
+  <section id="formSection">
+    <form>
+
+      <fieldset>
+        <label for = "name">Name</label>
+        <input type = "text" name = "name" id = "name" required>
+        </fieldset>
+
+        <fieldset id="select">
+          <label>Pick a taste...</label>
+          <select name="taste" id="taste">
+            <option>Select</option>
+            <option value="Sweet">sweet</option>
+            <option value="Spicy">spicy</option>
+            <option value="Bitter">bitter</option>
+            <option value="Salty">salty</option>
+            <option value="Subtle">subtle</option>
+            <option value="tasteless">tasteless</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for = "flavor">Ice cream</label>
+          <input type = "text" name = "flavor" id = "flavor" required>
+        </fieldset>
+
+        <fieldset>
+            <label for = "syrup">Syrup</label>
+            <input type = "text" name = "syrup" id = "syrup" required>
+        </fieldset>
+
+        <fieldset>
+            <label for = "fruit">Plural Fruit</label>
+            <input type = "text" name = "fruit" id = "fruit" required>
+        </fieldset>
+
+        <fieldset>
+            <label for = "topping">Topping</label>
+            <input type = "text" name = "topping" id = "topping" required>
+        </fieldset>
+
+        <fieldset>
+              <div>
+                <input type="reset" value="reset" id="r">
+                <input type="submit" value="create!" id="s">
+             </div>
+        </fieldset>
+
+    </form>
+  </section>
+
+  <section id="msgSection" class = "hide">
+    <p id="myMsg"></p>
+  </section>
+
+
+  <footer>
+    <a href="mailto:bsanch@ucdavis.edu">Email</a> |
+    <a href="https://validator.w3.org/check?url=referer">Valid HTML 5</a> |
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a> |
+    <a href="../index.html">Return to Portal</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
