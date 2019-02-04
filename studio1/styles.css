@@ -48,6 +48,8 @@ input {
 }
 /******** Inputs *********/
 
+
+
 input:hover {
   box-shadow: 0 0 10px #515151;
 }
@@ -101,7 +103,6 @@ input[type="reset"]:hover {
 
 /****** IDs ******/
 
-
 #formSection {
   width: 20%;
   margin-left: 55%;
@@ -120,7 +121,7 @@ input[type="reset"]:hover {
 #msgSection {
   text-align: center;
   color: white;
-  background-color: peru;
+  background-color: #f6957d;
   border-radius: 10px;
   width: 600px;
   line-height: 2em;
