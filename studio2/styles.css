@@ -1,8 +1,7 @@
 /* Mobile first! Tablet view */
 @media only screen and (min-width: 769px) {
-   /* declarations */
-   display: inline;
-}
+  /* declarations to be added*/
+ }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
