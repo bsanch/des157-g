@@ -13,7 +13,7 @@ function processForm(evt){
   var topping = document.querySelector("#topping").value;
   var myMsg = document.querySelector("#myMsg");
 
-  myMsg.innerHTML = "Have you tried the " + name + " Specialty? It's a " + taste + " sundae made up of " + flavor + " ice cream that's drizzled with " + syrup + " and topped with " + fruit + " and " + topping + "! You should try it sometime!";
+  myMsg.innerHTML = "Have you tried the " + name + " Specialty? It's a " + taste + " sundae made up of " + flavor + " ice cream that's drizzled with " + syrup + " syrup, and topped with " + fruit + " and " + topping + "! You should try it sometime!";
 
   msgSection.className = "show";
 

@@ -1,0 +1,35 @@
+/* Mobile first! Tablet view */
+@media only screen and (min-width: 769px) {
+   /* declarations */
+   display: inline;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  width: 100%;
+  /*align-content: center;*/
+}
+
+.hide {
+  display:flex;
+  align-items: flex-start;
+}
+
+.show {
+  display:block;
+}
+
+section {
+  /*display: flex;
+  /*flex-wrap: wrap;
+  align-items: flex-start;
+  /*align-items: center;
+  /*justify-content: center;
+  /*flex-direction: row;*/
+}
+
+#backpack {
+  display: flex;
+  justify-content: center;
+}
