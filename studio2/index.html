@@ -17,17 +17,41 @@
 
     <section id="contents">
         <section id="usb">
-          <img src="../images/usb.png" alt="USB flash drive">
+          <button onclick="usbButton" id="usbButton">
+            <img src="../images/usb.png" alt="USB flash drive">
+          </button>
         </section>
 
         <section id="sketchbook">
-          <img src="../images/sketchbook.png" alt="sketchbook">
+          <button onclick="sketchButton" id="sketchButton">
+            <img src="../images/sketchbook.png" alt="sketchbook">
+          </button>
         </section>
 
         <section id="pillbox">
-          <img src="../images/pill-box-closed.png" alt="pill box">
+          <button onclick="pillButton" id="pillButton">
+            <img src="../images/pill-box-closed.png" alt="pill box">
+          </button>
         </section>
     </section>
+
+    <section id="messages">
+      <p id="usbMsg" class="hide">
+        This magic little device has many things inside it. There are InDesign files, PDFs, MOVs, photos, and code. It would suck to lose this little thing. Attached to it is a green strap and a hand-drawn acrylic keychain of a milk carton.
+      </p>
+
+      <p id="sketchMsg" class="hide">
+        What would an artist or designer be without a sketchbook? You can draw or write anything down in it. You could even collage or adhere things to its pages like stickers, business cards, receipts, and pretty flowers.
+      </p>
+
+      <p id="pillMsg" class="hide">
+        Stomach pains? Headaches? It sucks being in any sort of pain, especially when you're at school. This little case contains pain relief pills as well as allergy pills. Hello Kitty used to be printed on it.
+      </p>
+    </section>
+
+    <!-- <div id = "usb-info">
+      All my code is on this thing!
+    </div> -->
 
         <!--<input type="image" id="backpack" alt="backpack"
        src="../images/backpack.png" width="300" height="427">-->
