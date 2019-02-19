@@ -1,5 +1,5 @@
 /* Mobile first! Tablet view */
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) {
   #contents {
     /* flex-direction: column;
     align-content: center; */
@@ -36,14 +36,14 @@ h1 {
   width: 100%;
   color: white;
 }
-/* .hide {
-  display:flex;
-  align-items: flex-start;
+
+.hide {
+  display: none;
 }
 
 .show {
-  display:block;
-} */
+  display: block;
+}
 
 #contents {
   display: grid;
@@ -56,19 +56,31 @@ h1 {
   width: 100%;
 }
 
- #sketchbook, #usb, #pillbox {
- padding: 3em;
+#messages {
+  width: 50%;
 }
 
-#sketchbook {
+#usbButton, #sketchButton, #pillButton {
+  border: none;
+}
+
+ #sketchbook, #usb, #pillbox {
+   padding: 3em;
+}
+
+img:hover {
+  box-shadow: 5px 5px 5px #888;
+}
+
+#sketchbook, #sketchButton {
   background-color: #e0c1ff;
 }
 
-#usb {
+#usb, #usbButton {
   background-color: #a1edb9;
 }
 
-#pillbox {
+#pillbox, #pillButton {
   background-color: #fcb5cf;
 }
 
