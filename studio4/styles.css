@@ -1,5 +1,18 @@
 @media only screen and (min-width: 769px) {
-   /* declarations */
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+   footer {
+     position: fixed;
+     text-align: left;
+   }
+
+   h2, p {
+     margin: 1em;
+   }
 }
 
 body {
