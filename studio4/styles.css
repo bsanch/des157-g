@@ -1,0 +1,41 @@
+@media only screen and (min-width: 769px) {
+   /* declarations */
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2, p {
+  position: fixed;
+  margin-left: 1em;
+}
+
+h2 {
+  bottom: 3em;
+}
+
+p {
+  bottom: 2em;
+  color: #333;
+  padding-left: .50em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 11pt;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+  transition: all, 0.25s;
+}
+
+a:hover {
+  color: black;
+}
