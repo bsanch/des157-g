@@ -11,7 +11,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1366, 500);
+  createCanvas(windowWidth, 500);
   mySound.play();
   fft = new p5.FFT();
 }
