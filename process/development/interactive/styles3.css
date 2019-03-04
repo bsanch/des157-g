@@ -1,0 +1,75 @@
+body {
+  background-color: lightpink;
+  font-family: 'Overpass', sans-serif;
+  text-transform: uppercase;
+}
+
+#content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: .5em;
+  color: white;
+  background-color: lightpink;
+  width: 25%;
+  text-align: center;
+  padding: 1em;
+  outline: 3px solid #fff;
+  border-style: none;
+  cursor: pointer;
+  transition: all, 0.5s;
+  position: fixed;
+}
+
+.button:hover
+ {
+  box-shadow: 0px 0px 20px #444;
+}
+
+#buttonHome {
+  bottom: 7em;
+  right: 5em;
+}
+
+#buttonReset {
+  bottom: 3em;
+  right: 5em;
+}
+
+#buttonPlay {
+  left: 5em;
+  bottom: 7em;
+}
+
+#menu {
+  width: 10em;
+}
+
+div {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 70%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+  margin: 0.5em;
+}
