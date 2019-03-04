@@ -41,7 +41,7 @@ div {
 p {
   width: 800px;
   margin: auto;
-  padding: 30px;
+  padding: 1em 1em 3em 1em;
 }
 
 img {
