@@ -42,6 +42,7 @@ p {
   width: 800px;
   margin: auto;
   padding: 1em 1em 3em 1em;
+  line-height: 1.5em;
 }
 
 img {
