@@ -1,0 +1,80 @@
+body {
+  font-family: 'Overpass', sans-serif;
+  /* overflow: hidden; */
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+#home {
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home p {
+  line-height: 1.75em;
+}
+
+#visualizer {
+  display: none;
+}
+
+#close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: .5em;
+  text-align: center;
+  padding: 1em;
+  outline: 3px solid #fff;
+  border-style: none;
+  cursor: pointer;
+  transition: all, 0.5s;
+}
+
+.button:hover
+ {
+  box-shadow: 0px 0px 20px white;
+}
+
+#visButton {
+  width: 100%;
+}
+
+/* .page:target {
+  display: block;
+}
+
+.page {
+  height: 100%;
+  display: none;
+} */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+  margin: 0.5em;
+}
