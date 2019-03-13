@@ -9,6 +9,8 @@ var visButton = document.querySelector('#visButton'); //visButton = charlieTH pi
 var visualizer = document.querySelector('#visualizer'); //visualizer = overlay
 var home = document.querySelector('#home');
 var close = document.querySelector('#close');
+var play = document.querySelector('#play');
+var pause = document.querySelector('#pause');
 
 visButton.addEventListener('click',function(){
   visualizer.style.display='block';
@@ -19,6 +21,27 @@ close.addEventListener('click',function(){
   visualizer.style.display='none';
   home.style.display='block';
 },false);
+
+play.addEventListener('click',function(){
+  mySound.play();
+})
+
+pause.addEventListener('click',function(){
+  mySound.stop();
+})
+
+// Pause and play music
+// function mousePressed() {
+//   if ( mySound.isPlaying() ) {
+//     mySound.stop();
+//   } else {
+//     mySound.play();
+//   }
+// }
+
+// function mousePressed() {
+//     mySound.play();
+// }
 
 // function onclick(event) {
 //   if (confirm('Format the hard disk?'))
@@ -37,7 +60,6 @@ function setup() {
   // mic.start();
   fft = new p5.FFT();
   fft.setInput(mic);
-
   myCanvas.parent('mySketch');
 }
 
@@ -52,10 +74,6 @@ function setup() {
 //   }
 //   endShape();
 // }
-
-function mousePressed() {
-    mySound.play();
-}
 
 function draw (){
 
@@ -105,13 +123,4 @@ function draw (){
       strokeWeight(6);
     }
     endShape();
-}
-
-// Pause and play music
-function mousePressed() {
-  if ( mySound.isPlaying() ) {
-    mySound.stop();
-  } else {
-    mySound.play();
-  }
 }

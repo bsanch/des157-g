@@ -17,6 +17,7 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+
 #home p {
   line-height: 1.75em;
 }
@@ -25,10 +26,12 @@ h1 {
   display: none;
 }
 
+#visualizer p {
+  margin-left: 2em;
+}
+
 #close {
-  position: absolute;
-  top: 1em;
-  right: 1em;
+
 }
 
 #close:hover {
@@ -63,14 +66,11 @@ a {
   width: 100%;
 }
 
-/* .page:target {
-  display: block;
+#interface {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2em;
 }
-
-.page {
-  height: 100%;
-  display: none;
-} */
 
 footer {
   position: fixed;
