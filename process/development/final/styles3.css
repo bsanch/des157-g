@@ -9,14 +9,14 @@ h1 {
   text-transform: uppercase;
 }
 
-#home {
+#home, #share {
   color: white;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* display: none; */
 }
-
 
 #home p {
   line-height: 1.75em;
@@ -26,12 +26,19 @@ h1 {
   display: none;
 }
 
-#visualizer p {
-  margin-left: 2em;
+#share {
+  display: none;
+  /* width: 100%; */
 }
 
-#close {
+#social {
+  cursor: pointer;
+  margin-bottom: 2em;
+}
 
+#visualizer p {
+  margin-left: 2em;
+  line-height: 2em;
 }
 
 #close:hover {
@@ -49,13 +56,15 @@ a {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 1em;
-  letter-spacing: .5em;
+  letter-spacing: .25em;
   text-align: center;
   padding: 1em;
   outline: 3px solid #fff;
   border-style: none;
   cursor: pointer;
   transition: all, 0.5s;
+  margin-right: 1em;
+  width: 100%;
 }
 
 .button:hover
@@ -63,14 +72,13 @@ a {
   box-shadow: 0px 0px 20px white;
 }
 
-#visButton {
-  width: 100%;
-}
-
 #interface {
-  display: flex;
-  flex-direction: row;
-  margin-left: 2em;
+display: grid;
+grid-template-columns: repeat(3,10em);
+grid-template-rows: auto;
+grid-column-gap: 2em;
+grid-row-gap: 2em;
+margin-left: 2em;
 }
 
 footer {
@@ -78,7 +86,9 @@ footer {
   position: fixed;
   bottom: 0;
   font-size: 12px;
+  text-align: center;
   margin: 0.5em;
+  width: 100%;
 }
 
 footer a {
